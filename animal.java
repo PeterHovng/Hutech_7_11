@@ -1,4 +1,4 @@
-public class wellcometothezoo {
+public class animal {
     private String eat;
     private String name;
     public String getEat(){
@@ -14,7 +14,7 @@ public class wellcometothezoo {
         this.name=name;
     }
 }
-class rabbit extends wellcometothezoo{
+class rabbit extends animal{
     private int tai;
     public int getTai()
     {
@@ -25,7 +25,7 @@ class rabbit extends wellcometothezoo{
         this.tai= tai;
     }
 }
-class tiger extends wellcometothezoo{
+class tiger extends animal{
     private int chan;
     public int getChan()
     {
@@ -36,7 +36,7 @@ class tiger extends wellcometothezoo{
         this.chan= chan;
     }
 }
-class cow extends wellcometothezoo{
+class cow extends animal{
     private int sung;
     public int getSung()
     {
